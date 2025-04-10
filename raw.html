@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Header Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        /* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    display: flex;
+    background-color: lightgray;
+    width: 600px;
+    height: 100px;
+}
+
+.item {
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.item1 {flex-grow: 1; } /* Takes 1 part */
+.item2 { flex-grow: 3; } /* Takes 2 parts */
+.item3 { flex-grow: 1; } /* Takes 3 parts */
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">Item 1</div>
+        <div class="item item2" style="background-color: purple;">Item 2</div>
+        <div class="item item3">Item 3</div>
+    </div>
+    
+     
+</body>
+</html>
